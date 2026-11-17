@@ -1,8 +1,5 @@
 #ifndef RED_H
 #define RED_H
-
-//esbrir para ejecutar -lws2_32.
-
 #include <cerrno>
 #include <string>
 #include "ExcepcionesRed.h"
