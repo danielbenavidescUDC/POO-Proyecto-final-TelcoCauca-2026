@@ -73,7 +73,7 @@ inline void ponerTimeout(Socket s, int segundos) {
 #endif
 }
 
-// En Windows se usa inet_addr porque el MinGW de Zinjal no trae inet_pton
+
 inline bool convertirIP(const string& ip, in_addr& destino) {
 #ifdef _WIN32
     unsigned long dir = inet_addr(ip.c_str());
