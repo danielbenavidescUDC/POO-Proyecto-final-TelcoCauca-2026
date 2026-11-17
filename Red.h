@@ -1,8 +1,7 @@
 #ifndef RED_H
 #define RED_H
 
-// Incluir este archivo antes que <thread> y <mutex>.
-// En Windows (Zinjal) enlazar con -lws2_32.
+//esbrir para ejecutar -lws2_32.
 
 #include <cerrno>
 #include <string>
